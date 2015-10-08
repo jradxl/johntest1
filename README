@@ -39,6 +39,7 @@ git add sample-branch1.txt
 git commit -a -m "some comment for the branch"
 git push origin branch1
 
+Wow!, now switched back to branch1. Both READMEs are different now!
 
 
 
