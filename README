@@ -1,7 +1,24 @@
 This is a test git repo from the command line in Majaro!
 wow!
-Following the article -
+
+Following the articles -
 https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/
+http://rogerdudler.github.io/git-guide/
+https://wiki.archlinux.org/index.php/Super_Quick_Git_Guide
+
 
 Well, the initial commit seemed to work. This is an edit!
+
+OK, here's a summary because I'll never remember!
+
+git config --global user.name "jradxl"
+git config --global user.email "<whatever>"
+git init johntest1
+cd johntest1
+git add README
+git add sample.c
+git commit -m "Initial commit"
+git remote add origin https://github.com/jradxl/johntest1.git
+git push origin master
+
 
