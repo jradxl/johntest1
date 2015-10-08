@@ -28,5 +28,10 @@ git commit -m "some comment"
 
 So far so good!
 
+Credentials Cache
+See https://help.github.com/articles/caching-your-github-password-in-git/
+git config --global credential.helper cache
+
+
 
 
