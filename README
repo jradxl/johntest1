@@ -33,6 +33,11 @@ See https://help.github.com/articles/caching-your-github-password-in-git/
 git config --global credential.helper cache
 
 Branching
+git checkout -b branch1
+pluma sample-branch1.txt
+git add sample-branch1.txt
+git commit -a -m "some comment for the branch"
+git push origin branch1
 
 
 
