@@ -21,4 +21,12 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/jradxl/johntest1.git
 git push origin master
 
+Editing an existing file:
+pluma README
+git add README
+git commit -m "some comment"
+
+So far so good!
+
+
 
